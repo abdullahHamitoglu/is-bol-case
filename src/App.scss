@@ -1,0 +1,23 @@
+body{
+  background-color: #f1f1f1;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1170px !important;
+}
+
+select {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path fill='none' stroke='blue' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/></svg>");
+  background-position: right 0.75rem center;
+  background-position-x: right 0.75rem;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: 16px 12px;
+  &:focus{
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg style='transform: rotate(180deg)' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3E%3C/svg%3E");
+  }
+}
